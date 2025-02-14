@@ -1,0 +1,94 @@
+{
+    "data": [
+        {
+            "type": "section",
+            "name": "Foreword to the 2nd Edition",
+            "page": 3,
+            "entries": [
+                "It has been a long time getting here. I don't mean the months, perhaps even years, you may have waited for a revised, expanded, and improved edition of the AD&D game. I mean the long time it has taken me to reach this point, the writing of the foreword. Forewords are written last, so that you can summarize your feelings and experiences about the book you have written.",
+                "It's not accurate to say this is a book that I alone have written. First off, there are a lot of other names listed in the credits. They, especially the editors, contributed time and talents that I don't have. Improving the organization and readability was one of the reasons we started this project in the first place. These are tasks that can't be done without talented editors who play and care about the game. If you discover that it's easier to find rules during your gaming sessions and that everything seems to make more sense, thank the editors.",
+                "Even with the editors, this is not our work alone. None of this would ever have come into being without interested and involved players. The people who really decided what needed to be done for the AD&D 2nd Edition game are the players who mailed in questions, everyone who wrote an article for DRAGON® Magazine, and everyone who button-holed me (or other designers) at conventions. These were the people who decided what needed to be done, what needed fixing, what was unclear, and what they just didn't like. I didn't sit in a vacuum and make these decisions. As the designer and developer, I had to make the final choice, but those choices were based on your input. And your input is the most valuable asset we have going.",
+                "So how do I feel? Excited, exhausted, relieved, and nervous — all at once. It's a great bag of emotions. I'm excited to see this book come out. I've spent more time on this than I have on any other single work I've done. That leads to exhaustion. The AD&D 2nd Edition game has demanded and received hours upon months of attention. Now that it is finally coming out, the feeling of relief is beginning to set in. There were times when the task looked impossible, when it seemed it would never end, or when everything was going wrong. Only now, when it's in the final stages of polishing, am I beginning to realize that it is really done. And of course there is the nervousness. The AD&D game is the granddaddy of all role-playing games. You've made it perfectly clear that you liked the original edition of the AD&D game, even with all its warts. I liked (and still like) it. So, now with the arrival of AD&D 2nd Edition, of course I'm nervous.",
+                "None of this comes as any surprise. I volunteered to prepare this Edition because I wanted to do something for the game I liked. The ten years of experience I've had in game design has shown me what works and what doesn't and sometimes even why. At the very start, we outlined the goals: to make it easier to find things, to make the rules easier to understand, to fix the things that did not work, to add the best new ideas from the expansions and other sources, and, most important of all, to make sure the game was still the one you knew and enjoyed. Of them all, the last was the hardest and most demanding, conflicting as it did with my basic desire to design things. Fortunately, things didn't rest on me alone. Lots of eager eyes, from those of fellow designers to those of enthusiastic playtesters, minutely examined this book and restrained me from overzealousness. It hasn't always been easy to walk the fine line between \"not enough\" and \"too much.\"",
+                "In the past two years, I've talked to interested players many times, hearing their concerns and sharing my ideas. It was at the end of one of these talks (at a convention in Missoula, Montana), just as I described some rules change, that one of the listeners smiled and said, \"You know, we've been doing that for years.\" And that is what AD&D 2nd Edition is all about—collecting and organizing all those things that we, as players, have been doing for years.",
+                "David \"Zeb\" Cook",
+                "January, 1989"
+            ],
+            "id": "000"
+         },
+         {
+            "type": "section",
+            "name": "Welcome to the 2nd Edition AD&D® Game",
+            "page": 8,
+            "data": {
+				"quickref": 1
+			},
+            "entries": [
+                "You are reading the key to the most exciting hobby in the world — role-playing games.",
+                "These first few pages will introduce you to the second edition of the most successful role-playing game ever published. If you are a novice role-player, stop right here and read the section labeled {@i The Real Basics} (on the next page). When you understand what role-playing and the AD&D game are all about, come back to this point and read the rest of the introduction. If you are an experienced role-player, skip {@i The Real Basics}.",
+                {
+					"type": "entries",
+					"name": "Why a Second Edition?",
+					"page": 8,
+					"entries": [
+						"Before answering that question, let's define what the second edition of the AD&D game is and is not.",
+                        "This second edition of the AD&D game is a lot different from the first edition. The presentation of the game has been cleaned up. The rules are reorganized, clarified. and streamlined. Where necessary, things that didn't work have been fixed. Things that did work haven't been changed.",
+                        "The second edition of the AD&D game is not a statement of what anyone person thinks the game should be. It is the result of more than three years of discussion, thought, consultation, review, and playtesting.",
+                        "Now to the question of \"Why a second edition?\" The AD&D game evolved over the course of 16 years. During that time, the game grew tremendously through play. Changes and improvements (and a few mistakes) were made. These were published in subsequent volumes. By 1988, the game consisted of 12 hardcover rule books. It was physically and intellectually unwieldy (but still a lot of fun). The time was right to reorganize and recombine all that information into a manageable package. That package is the second edition."
+					],
+					"id": "001"
+				},
+                {
+					"type": "entries",
+					"name": "How the Rule Books are Organized",
+					"page": 8,
+					"entries": [
+						"The AD&D game rule books are intended primarily as reference books. They are designed so any specific rule can be found quickly and easily during a game.",
+                        "Everything a player needs to know is in the {@i Player's Handbook}. That's not to say that all the rules are in this book. But every rule that a player needs to know in order to play the game is in this book.",
+                        "A few rules have been reserved for the {@i Dungeon Master's Guide (DMG)}. These either cover situations that very seldom arise or give the Dungeon Master (DM) information that players should not have beforehand. Everything else in the {@i DMG} is information that only the Dungeon Master needs. If the DM feels that players need to know something that is explained in the DMG, he will tell them.",
+                        "Like the {@i DMG}, the {@i Monstrous Compendium} is the province of the DM. This gives complete and detailed information about the monsters, people, and other creatures inhabiting the AD&D world. Some DMs don't mind if players read this information, but the game is more fun if players don't know everything about their foes — it heightens the sense of discovery and danger of the unknown."
+					],
+					"id": "002"
+				},
+                {
+					"type": "entries",
+					"name": "Learning the Game",
+					"page": 8,
+					"entries": [
+                        "If you have played the AD&D game before, you know almost everything you need to play the 2nd Edition. We advise you to read the entire Player's Handbook, but the biggest changes are in these chapters: Character Classes, Combat, and Experience. Be sure to read at least those three chapters before sitting down to play.",
+                        "If you come to a term you do not understand, look for it in the Glossary.",
+                        "If you have never played the AD&D game before, the best way to learn to play the game is to find a group of experienced players and join them. They can get you immediately into the game and explain things as you need to know them. You don't need to read anything beforehand. In fact, it's best if you can play the game for several hours with experienced players before reading any of the rules. One of the amazing things about a role-playing game is that the concept is difficult to explain, but marvelously simple to demonstrate.",
+                        "If none of your friends are involved in a game, the best place to find experienced players is through your local hobby store. Role-playing and general gaming clubs are common and are always eager to accept new members. Many hobby stores offer a bulletin board through which DMs can advertise for new players and new players can ask for information about new or ongoing games. If there is no hobby store in your area, check at the local library or school.",
+                        "If you can't find anyone else who knows the AD&D game, you can teach yourself. Read the Player's Handbook and create some characters. Try to create a variety of character classes. Then pick up a pre-packaged adventure module for low-level characters, round up two or three friends, and dive into it. You probably will make lots of mistakes and wonder constantly whether you are doing everything wrong. Even if you are, don't worry about it. The AD&D game is big, but eventually you'll bring it under control."
+                    ],
+					"id": "003"
+				},
+                {
+					"type": "entries",
+					"name": "Coming from the D&D Game",
+					"page": 8,
+					"entries": [
+                        "If you have played the AD&D game before, you know almost everything you need to play the 2nd Edition. We advise you to read the entire Player's Handbook, but the biggest changes are in these chapters: Character Classes, Combat, and Experience. Be sure to read at least those three chapters before sitting down to play.",
+                        "If you come to a term you do not understand, look for it in the Glossary.",
+                        "If you have never played the AD&D game before, the best way to learn to play the game is to find a group of experienced players and join them. They can get you immediately into the game and explain things as you need to know them. You don't need to read anything beforehand. In fact, it's best if you can play the game for several hours with experienced players before reading any of the rules. One of the amazing things about a role-playing game is that the concept is difficult to explain, but marvelously simple to demonstrate.",
+                        "If none of your friends are involved in a game, the best place to find experienced players is through your local hobby store. Role-playing and general gaming clubs are common and are always eager to accept new members. Many hobby stores offer a bulletin board through which DMs can advertise for new players and new players can ask for information about new or ongoing games. If there is no hobby store in your area, check at the local library or school.",
+                        "If you can't find anyone else who knows the AD&D game, you can teach yourself. Read the Player's Handbook and create some characters. Try to create a variety of character classes. Then pick up a pre-packaged adventure module for low-level characters, round up two or three friends, and dive into it. You probably will make lots of mistakes and wonder constantly whether you are doing everything wrong. Even if you are, don't worry about it. The AD&D game is big, but eventually you'll bring it under control."
+                    ],
+					"id": "003"
+				}
+            ],
+        
+            "id": "006"
+         },
+         {
+
+         },
+         {
+
+         },
+         {
+
+         }
+
+    ]
+}

@@ -1,0 +1,149 @@
+@use "sass:color";
+
+@use "../vars/vars";
+@use "../vars/vars-night";
+
+@mixin mix-source-color ($rgb) {
+	color: $rgb !important;
+	border-color: $rgb !important;
+	text-decoration-color: $rgb !important;
+}
+
+.ve-night-mode .source {
+	$rgb-source-category-site: #de000a;
+	$rgb-source-category-extras: #bb6468;
+	$rgb-source-category-prerelease: vars-night.$rgb-subclass-ua--night;
+	$rgb-source-category-prerelease--local: #60c52f;
+	$rgb-source-category-homebrew: vars-night.$rgb-class-brew--night;
+	$rgb-source-category-homebrew--local: #514bff;
+	$rgb-source-category-homebrew--partnered: #b44051;
+
+	$rgb-source-PHB: vars-night.$rgb-subclass--night;
+	$rgb-source-DMG: #ba1eba;
+	$rgb-source-SADS: #4f63f5;
+	$rgb-source-PSA: #eec276;
+	$rgb-source-XPHB: #d98d2a;
+
+	// region Categories
+
+	&-category- {
+		&site {
+			@include mix-source-color($rgb-source-category-site);
+		}
+
+		&extras {
+			@include mix-source-color($rgb-source-category-extras);
+		}
+
+		&homebrew {
+			@include mix-source-color($rgb-source-category-homebrew);
+
+			&--partnered {
+				@include mix-source-color($rgb-source-category-homebrew--partnered);
+			}
+
+			&--local {
+				@include mix-source-color($rgb-source-category-homebrew--local);
+			}
+		}
+
+		&spicy {
+			@include mix-source-color($rgb-source-category-prerelease);
+
+			&--partnered {
+				@include mix-source-color(#ff00ff); // (Should never occur)
+			}
+
+			&--local {
+				@include mix-source-color($rgb-source-category-prerelease--local);
+			}
+		}
+	}
+
+	// endregion
+
+	&__ {
+		&PHB {
+			@include mix-source-color($rgb-source-PHB);
+		}
+
+		&DMG {
+			@include mix-source-color($rgb-source-DMG);
+		}
+
+		&SADS {
+			@include mix-source-color($rgb-source-SADS);
+		}
+
+		&PSA {
+			@include mix-source-color($rgb-source-PSA);
+		}
+
+		&XPHB {
+			@include mix-source-color($rgb-source-XPHB);
+		}
+	}
+}
+
+// (Unused)
+.ve-night-mode .itm__ {
+	&rarity-alt- {
+		&common {
+			color: color.adjust(vars-night.$rgb-font--night, $lightness: -15%);
+		}
+
+		&uncommon {
+			color: #6ba167;
+		}
+
+		&rare {
+			color: #5384bd;
+		}
+
+		&very {
+			color: #945bd3;
+		}
+
+		&legendary {
+			color: #dd9332;
+		}
+
+		&artifact {
+			color: #c82727;
+		}
+	}
+}
+
+.ve-night-mode .itm__ {
+	&rarity- {
+		&common {
+			color: color.adjust(vars-night.$rgb-font--night, $lightness: -15%);
+		}
+
+		&uncommon {
+			color: #b27f5e;
+		}
+
+		&rare {
+			color: #a69bbe;
+		}
+
+		&very {
+			color: #c59e3f;
+		}
+
+		&legendary {
+			color: #8cc2d8;
+		}
+
+		&artifact {
+			color: #c82727;
+		}
+	}
+}
+
+.ve-night-mode .ve-source-marker {
+	&--partnered {
+		color: #27ac8c;
+	}
+}
