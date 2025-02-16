@@ -1554,15 +1554,6 @@
 							"width": 1700,
 							"height": 1136
 						},
-						"During their adventures, player characters meet many different people and face some monsters that would rather talk than fight. In those situations, it's time for social interaction, which takes many forms. For example, you might try to convince a burglar to confess to wrongdoing or try to flatter a guard. The Dungeon Master assumes the roles of any nonplayer characters who are participating.",
-						"An NPC's attitude toward your character is {@variantrule Friendly [Attitude]|XPHB|Friendly}, {@variantrule Indifferent [Attitude]|XPHB|Indifferent}, or {@variantrule Hostile [Attitude]|XPHB|Hostile}, as defined in the {@book rules glossary|XPHB|10}. Friendly NPCs are predisposed to help, and Hostile ones are inclined to hinder.",
-						"Social interactions progress in two ways: through roleplaying and ability checks.",
-						{
-							"type": "entries",
-							"name": "Roleplaying",
-							"page": 16,
-							"id": "044",
-							"entries": [
 								"Roleplaying is, literally, the act of playing out a role. In this case, it's you as a player determining how your character thinks, acts, and talks. Roleplaying is part of every aspect of the game, and it comes to the fore during social interactions.",
 								"As you roleplay, consider whether you prefer an active approach or a descriptive approach, each of which is described in \"{@book Social Interaction Example.|XPHB|1|Social Interaction Example}\"",
 								"The DM uses an NPC's personality and your character's actions and attitudes to determine how an NPC reacts. A cowardly bandit might buckle under threats of imprisonment. A stubborn merchant refuses to help if the characters badger her. A vain dragon laps up flattery.",
@@ -4058,8 +4049,6 @@
 								"Choose a class, and write it on your character sheet. The Class Overview table summarizes the classes. See {@book chapter 3|XPHB|3} for the classes' details.",
 								{
 									"type": "table",
-									"caption": "Class Overview",
-									"colLabels": [
 										"Class",
 										"Likes...",
 										"Primary Ability",
@@ -8094,47 +8083,6 @@
 									]
 								}
 							]
-						},
-						{
-							"type": "image",
-							"href": {
-								"type": "internal",
-								"path": "book/XPHB/169-07-058.simple-melee.webp"
-							},
-							"title": "Simple Melee Weapons",
-							"credit": "Polar Engine, John Grello, Michael Broussard",
-							"width": 1700,
-							"height": 1438
-						},
-						{
-							"type": "image",
-							"href": {
-								"type": "internal",
-								"path": "book/XPHB/170-07-059.simple-range.webp"
-							},
-							"title": "Simple Ranged Weapons",
-							"width": 1700,
-							"height": 858
-						},
-						{
-							"type": "image",
-							"href": {
-								"type": "internal",
-								"path": "book/XPHB/171-07-061.martial-melee.webp"
-							},
-							"title": "Martial Melee Weapons",
-							"width": 1700,
-							"height": 1575
-						},
-						{
-							"type": "image",
-							"href": {
-								"type": "internal",
-								"path": "book/XPHB/172-07-060.martial-range.webp"
-							},
-							"title": "Martial Ranged Weapons",
-							"width": 1700,
-							"height": 956
 						},
 						{
 							"type": "entries",

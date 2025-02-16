@@ -20,9 +20,6 @@
             "type": "section",
             "name": "Welcome to the 2nd Edition AD&D® Game",
             "page": 8,
-            "data": {
-				"quickref": 1
-			},
             "entries": [
                 "You are reading the key to the most exciting hobby in the world — role-playing games.",
                 "These first few pages will introduce you to the second edition of the most successful role-playing game ever published. If you are a novice role-player, stop right here and read the section labeled {@i The Real Basics} (on the next page). When you understand what role-playing and the AD&D game are all about, come back to this point and read the rest of the introduction. If you are an experienced role-player, skip {@i The Real Basics}.",
